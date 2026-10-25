@@ -1,0 +1,2 @@
+import Main from '../components/Main';import BookingForm from '../components/BookingForm';import './Booking.css';
+export default function Booking(){return <Main><section className="booking-section container"><div className="booking-intro"><p className="eyebrow">We saved you a seat</p><h1>Book a table</h1><p>Choose your preferred date and time. We look forward to seeing you.</p></div><BookingForm/></section></Main>}

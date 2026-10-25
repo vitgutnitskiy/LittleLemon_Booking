@@ -1,0 +1,3 @@
+import TestimonialCard from './TestimonialCard';
+const reviews=[{name:'Maya',stars:5,quote:'A lovely little place with the best fresh flavors.'},{name:'Daniel',stars:5,quote:'Friendly service and a wonderful atmosphere.'},{name:'Sofia',stars:5,quote:'The lemon dessert alone is worth coming back for.'}];
+export default function Testimonials(){return <section className="testimonials"><div className="container section"><p className="eyebrow">From our guests</p><h2>Good food, good memories</h2><div className="reviews">{reviews.map(r=><TestimonialCard key={r.name} review={r}/>)}</div></div></section>}

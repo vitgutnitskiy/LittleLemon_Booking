@@ -1,0 +1,2 @@
+import { Link } from 'react-router-dom';
+export default function Footer(){return <footer className="site-footer"><div className="container footer-layout"><div><strong>Little Lemon</strong><p>Chicago · Mediterranean kitchen</p></div><nav aria-label="Footer navigation"><Link to="/">Home</Link><Link to="/booking">Book a table</Link><a href="/#about">Our story</a></nav><p>© {new Date().getFullYear()} Little Lemon</p></div></footer>}

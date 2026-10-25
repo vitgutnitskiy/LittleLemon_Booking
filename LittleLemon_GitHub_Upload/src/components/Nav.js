@@ -1,0 +1,3 @@
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
+export default function Nav(){const [open,setOpen]=useState(false);const close=()=>setOpen(false);return <nav aria-label="Main navigation"><button className="menu-toggle" type="button" aria-expanded={open} aria-controls="main-menu" onClick={()=>setOpen(!open)}>☰ <span>Menu</span></button><ul id="main-menu" className={open?'nav-list is-open':'nav-list'}><li><Link onClick={close} to="/">Home</Link></li><li><a onClick={close} href="/#menu">Menu</a></li><li><a onClick={close} href="/#about">About</a></li><li><Link onClick={close} to="/booking">Reservations</Link></li></ul></nav>}

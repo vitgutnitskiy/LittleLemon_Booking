@@ -1,0 +1,1 @@
+export default function SpecialsCard({dish}){return <article className="dish-card"><img src={dish.image} alt={dish.name}/><div className="dish-content"><div className="dish-title"><h3>{dish.name}</h3><span>{dish.price}</span></div><p>{dish.description}</p></div></article>}

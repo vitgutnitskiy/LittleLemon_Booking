@@ -1,0 +1,2 @@
+import photo from '../assets/Mario and Adrian A.jpg';
+export default function About(){return <section id="about" className="section container about-layout"><div><p className="eyebrow">Our story</p><h2>Family at the heart of every dish</h2><p>Little Lemon is a neighborhood restaurant inspired by Mediterranean hospitality. We believe that simple ingredients, thoughtfully prepared, make every gathering special.</p><p>Join us for a casual lunch, a celebration, or an evening with friends.</p></div><img src={photo} alt="The Little Lemon restaurant team"/></section>}
